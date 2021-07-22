@@ -1,7 +1,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client({partials: ["MESSAGE", "CHANNEL", "REACTION"]});
-const prefix = "!"
+const prefix = "-"
 const fs = require("fs");
 //Bot.js File:
 const keepAlive = require('./server.js');

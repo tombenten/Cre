@@ -3,18 +3,20 @@ module.exports = {
 	execute(message, args) {
     const Discord = require('discord.js');
     const embed = new Discord.MessageEmbed()
-        .setColor("#66F037")
-        .setTitle("SmartTrades Rules:")
-        .setDescription(`**1.** No spamming
-**2.** No hate speech, NSFW content or abusive comments towards other members
-**3.** No DM advertising or  server promoting
-**4.** Keep chatrooms on topic
-**5.** Trade safely and apply proper risk management
-**6.** Nothing sent by traders or other members should be seen as trading advice
-**7.** Copying alerts to another server will result in an instant ban
-**8.** This server is not subject to your idea of 'fair', punishments will be given out as seen fit by staff to rulebreakers
+        .setColor("#ff0000")
+        .setTitle("BT Investing rules:")
+        .setDescription(`**1.** Do not private message advertisements, promotions, opinions, or advice to anyone from BT
 
-*All the following rules will be enforced by staff to keep the server as professional as possible, please adhere to the above rules or punishments will be given out*`)
+**2.** Do not be rude, immature, disrespectful to anyone in the server
+
+**3.** Do not repost our content.
+
+**4.** Do not post false information about news, stocks etc.
+
+**5.** Do not give or ask for any financial advice or management.
+
+**6.** Keep stock channels to stock talk only. Chill channels are for whatever.`)
+        .setThumbnail("https://cdn.discordapp.com/attachments/867692457579905024/867710734720040960/image0.jpg")
 
     message.channel.send({
         embed
